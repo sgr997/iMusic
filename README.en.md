@@ -6,11 +6,11 @@
 
 # iMusic
 
-**A native iOS 27 music client with an Apple Music-inspired interface**
+**A native iOS 26 music client with an Apple Music-inspired interface**
 
 SwiftUI · System Liquid Glass · LX User API · LX Sync Server
 
-[![Platform](https://img.shields.io/badge/platform-iOS%2027%2B-blue?logo=apple)](#build)
+[![Platform](https://img.shields.io/badge/platform-iOS%2026%2B-blue?logo=apple)](#build)
 [![Swift](https://img.shields.io/badge/Swift-6.2-F05138?logo=swift&logoColor=white)](platforms/ios/Package.swift)
 [![LGPL-3.0](https://img.shields.io/badge/license-LGPL--3.0-orange)](LICENSE)
 [![GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-orange)](COPYING)
@@ -39,7 +39,7 @@ QQ Music and NetEase public playlists are imported as editable local copies. Edi
 - Local favorites, recently played tracks and editable playlists
 - QQ Music and NetEase public playlist imports as local copies
 - Optional LX Sync for compatible favorites and playlists
-- iOS 27 system Liquid Glass, with transparency and tint following iPhone display and accessibility settings
+- iOS 26 system Liquid Glass, with transparency and tint following iPhone display and accessibility settings
 - Continuous decorative animations and audio spectrum analysis are throttled or paused for Low Power Mode, thermal pressure and inactive scenes. During background playback, progress and lyric-cursor callbacks slow from 0.2 to 1 second
 - Automatic New Discovery refresh is throttled to at most once every ten minutes
 
@@ -61,7 +61,7 @@ xcodegen generate
 xcodebuild -project KumoneIOS.xcodeproj -scheme KumoneIOS -configuration Release -sdk iphoneos CODE_SIGNING_ALLOWED=NO build
 ```
 
-The deployment target is iOS 27 and the app is designed for standard iPhone sizes. It does not include a foldable-specific layout.
+The deployment target is iOS 26 and the app is designed for standard iPhone sizes. It does not include a foldable-specific layout.
 
 ## Project layout
 

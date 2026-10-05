@@ -6,11 +6,11 @@
 
 # iMusic
 
-**原生 iOS 27 音乐客户端，采用 Apple Music 风格界面**
+**原生 iOS 26 音乐客户端，采用 Apple Music 风格界面**
 
 SwiftUI · 系统 Liquid Glass · LX User API 音源 · LX Sync Server
 
-[![Platform](https://img.shields.io/badge/platform-iOS%2027%2B-blue?logo=apple)](#构建)
+[![Platform](https://img.shields.io/badge/platform-iOS%2026%2B-blue?logo=apple)](#构建)
 [![LGPL-3.0](https://img.shields.io/badge/license-LGPL--3.0-orange)](LICENSE)
 [![GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-orange)](COPYING)
 
@@ -40,7 +40,7 @@ QQ 音乐和网易云公开歌单会导入为可编辑的本地副本。对这�
 - 本地收藏、最近播放和可编辑歌单
 - QQ 音乐与网易云公开歌单导入为本地副本
 - 可选 LX Sync，支持兼容的收藏和歌单
-- iOS 27 原生 Liquid Glass；透明度、着色及辅助功能表现跟随 iPhone 系统设置
+- iOS 26 原生 Liquid Glass；透明度、着色及辅助功能表现跟随 iPhone 系统设置
 - 连续装饰动效和音频频谱分析会根据低电量、设备热状态及应用场景活跃状态降载或暂停。后台播放时，进度与歌词游标回调由 0.2 秒降至 1 秒；“新发现”自动刷新间隔至少为 10 分钟
 
 默认 iOS 目标不包含应用内音乐下载页面、主屏幕小组件、自定义实时活动或 CarPlay 集成。锁屏与灵动岛仅使用 iOS 原生 Now Playing 媒体卡片。播放器也能复用设备上已有的本地音频文件。
@@ -61,7 +61,7 @@ xcodegen generate
 xcodebuild -project KumoneIOS.xcodeproj -scheme KumoneIOS -configuration Release -sdk iphoneos CODE_SIGNING_ALLOWED=NO build
 ```
 
-最低部署版本为 iOS 27，适配目标为常规 iPhone 尺寸；当前不提供折叠屏专属布局。
+最低部署版本为 iOS 26，适配目标为常规 iPhone 尺寸；当前不提供折叠屏专属布局。
 
 ## 项目结构
 
